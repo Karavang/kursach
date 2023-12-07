@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+}
+
+.hero-header {
+  background-image: url("./img/bg-hero.png");
+  padding: 64px 80px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+}
+.header ul {
+  gap: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+.header div {
+  gap: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header div img {
+  width: 24px;
+  height: 24px;
+}/*# sourceMappingURL=index.css.map */
