@@ -1,9 +1,13 @@
 body {
+  width: 100%;
+  height: 100%;
   margin: 0;
+  list-style-type: none;
+  background-color: #0b1d26;
 }
 
 .hero-header {
-  background-image: url("./img/bg-hero.png");
+  background-image: url("./img/bg-hero.jpg");
   padding: 64px 80px;
 }
 
@@ -29,4 +33,102 @@ body {
 .header div img {
   width: 24px;
   height: 24px;
+}
+
+.golden-text {
+  color: #fbd784;
+  font-family: Gilroy;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+}
+
+.hero {
+  padding: 150px 0 800px 0;
+}
+.hero ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+.hero ul li h1 {
+  color: #fff;
+  font-family: Chronicle Display;
+  font-size: 88px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100px;
+  text-transform: capitalize;
+}
+.hero .hero-left {
+  writing-mode: vertical-rl;
+  flex-direction: row;
+  gap: 24px;
+}
+.hero .hero-left p {
+  color: #fff;
+  font-family: Gilroy;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.hero .hero-center {
+  width: 950px;
+  display: block;
+}
+.hero .hero-center h5 {
+  color: #fff;
+  font-family: Gilroy;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+.hero .last-el-hero-list {
+  height: 240px;
+  display: flex;
+  gap: 32px;
+  align-items: center;
+  justify-content: center;
+}
+.hero .last-el-hero-list li {
+  height: 100%;
+}
+.hero .last-el-hero-list .hr-last-hero {
+  height: 240px;
+}
+.hero .last-el-hero-list .list-in-list {
+  height: 100%;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.hero .last-el-hero-list .list-in-list li {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  flex-direction: row;
+  font-family: Gilroy;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.content-pos {
+  padding: 120px 230px;
 }/*# sourceMappingURL=index.css.map */
